@@ -1,3 +1,0 @@
-```{r iris_percentiles, warning=FALSE, message=FALSE}
-quantile(iris$Petal.Length, c(0.25, 0.75))
-```
