@@ -7,7 +7,7 @@ library(forcats)
 library(ggplot2)
 library(purrr)
 
-## Model specificaction with binary interactions ----
+## Model specification with binary interactions ----
 
 ### Corruption and interaction variables in the Quality of Government dataset ----
 
