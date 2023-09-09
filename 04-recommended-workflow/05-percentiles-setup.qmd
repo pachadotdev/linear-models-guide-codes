@@ -1,0 +1,17 @@
+---
+title: "datasauRus analysis"
+format: html
+editor: visual
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
+```
+
+## Iris dataset
+
+The 25th and 75th percentiles for `Petal.Length` are:
+
+```{r iris_percentiles}
+quantile(iris$Petal.Length, c(0.25, 0.75))
+```
